@@ -126,7 +126,7 @@ fun SettingsSwitchItem(
     ) {
         Icon(
             imageVector = icon,
-            icontentDescription = null,
+            contentDescription = null,
             tint = MaterialTheme.colorScheme.primary
         )
         Spacer(modifier = Modifier.width(12.dp))

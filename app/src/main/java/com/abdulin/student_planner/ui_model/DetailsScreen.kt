@@ -8,7 +8,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import com.abdulin.student_planner.data.sampleSubjects
+import com.abdulin.student_planner.data.sampleSubject
 
 // Экран детальной информации о дисциплине
 @OptIn(ExperimentalMaterial3Api::class)
@@ -18,7 +18,7 @@ fun DetailsScreen(
     onNavigateBack: () -> Unit,
     modifier: Modifier = Modifier
 ) {
-    val subject = sampleSubjects.find { it.id == subjectId }
+    val subject = sampleSubject.find { it.id == subjectId }
     if (subject == null) {
         Box(
             modifier = Modifier.fillMaxSize(),

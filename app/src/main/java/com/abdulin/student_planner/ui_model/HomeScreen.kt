@@ -18,7 +18,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.abdulin.student_planner.data.Subject
 import com.abdulin.student_planner.data.sampleSubject
-import com.abdulin.student_planner.data.sampleSubjects
+
 
 @Composable
 fun SubjectCard(
